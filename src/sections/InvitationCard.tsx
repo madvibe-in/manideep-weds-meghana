@@ -6,6 +6,10 @@ export default function InvitationCard() {
     <section className="section section--invite">
       <Reveal className="invite-panel">
         <div className="invite-body">
+          <span className="invite-photo">
+            <img src="/image.jpg" alt="Manideep and Meghana" loading="lazy" />
+          </span>
+
           <p className="invite-blessings">
             {invitation.blessings.map((line) => (
               <span key={line}>{line}</span>

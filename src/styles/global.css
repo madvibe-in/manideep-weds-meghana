@@ -1289,6 +1289,27 @@ a {
   margin: 0 auto 14px;
 }
 
+/* Couple portrait above the blessings — soft rounded corners, side margins */
+.invite-photo {
+  display: block;
+  width: min(100% - 28px, 264px);
+  margin: 0 auto clamp(18px, 5vw, 26px);
+  padding: 5px;
+  border-radius: 24px;
+  background: linear-gradient(150deg, var(--gold), rgba(201, 151, 87, 0.45));
+  box-shadow:
+    0 16px 34px rgba(109, 17, 32, 0.18),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+.invite-photo img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 19px;
+  border: 3px solid var(--cream);
+}
+
 .invite-blessings {
   display: flex;
   flex-wrap: wrap;
