@@ -35,8 +35,8 @@ export const invitation = {
   divineFrom: "Late Potlabathini (Rajiramma – Rajaiah)",
   title: "Wedding Invitation",
   solicit:
-    "We solicit your gracious presence with family & friends on the auspicious occasion of the marriage of",
-  brideIntro: "My Sister Potlabathini Latha – (Late Ramesh)'s Youngest Daughter",
+    "We solicit your gracious presence, with family & friends, on the auspicious occasion of the marriage of",
+  brideIntro: "Potlabathini Latha – (Late Ramesh)'s Youngest Daughter",
   bridePrefix: "Chi. La. Sow.",
   brideName: "Meghana",
   brideAlias: "(Deepika)",
@@ -71,7 +71,7 @@ export const ceremonyTimeline: TimelineItem[] = [
   },
   {
     time: "Afterwards",
-    title: "Lunch Follows",
-    detail: "Stay and dine with us at Susheela A/c. Convention Hall."
+    title: "Lunch and Reception Follows",
+    detail: "Stay back to dine with us and join the couple's reception celebrations."
   }
 ];
